@@ -19,7 +19,7 @@ set "well_dir_new="%well_dir%""
 echo %well_dir_new%\%well_name_new%
 MD %well_dir_new%\%well_name_new%
 cd %well_dir_new%\%well_name_new%
-MD "_CSV Files" "_TXT Files" "_Prewell Testing" "_Chemical Orders" "_Post Job Reports" "_Proposals" "_Final Ticket"
+MD "_CSV Files" "_TXT Files" "_BOLs" "_Prewell Testing" "_Chemical Orders" "_Post Job Reports" "_Proposals" "_Final Ticket"
 
 FOR /L %%i IN (1,1,%well_stages%) DO (
  MD "Stage %%i"
